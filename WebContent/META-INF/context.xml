@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/jkim_assignment7">
+	<Resource name="jdbc/db" auth="Container"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://jhu-web-app.ciyge4nmdyzs.us-east-1.rds.amazonaws.com:3306/jhu_web_app"
+		username="root" password="opensesame"
+		maxActive="100" maxIdle="30" maxWait="10000"
+		logAbandoned="true" removeAbadoned="true"
+		removeAbandonedTimeout="60" type="javax.sql.DataSource" />
+</Context>
